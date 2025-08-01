@@ -10,11 +10,11 @@ python convert.py
 
 3. Run inference
 
-python infer.py  [-h] [--device {CPU,GPU,NPU,AUTO,ALL}] [--batch-sizes BATCH_SIZES]
+  python infer.py  [-h] [--device {CPU,GPU,NPU,AUTO,ALL}] [--batch-sizes BATCH_SIZES]
 
-python eval.py  [-h] [--device {CPU,GPU,NPU,AUTO,ALL}] [--batch-sizes BATCH_SIZES]
+  python eval.py  [-h] [--device {CPU,GPU,NPU,AUTO,ALL}] [--batch-sizes BATCH_SIZES]
 
-python benchmark.py [-h] [--device {CPU,GPU,NPU,AUTO,ALL}] [--batch-sizes BATCH_SIZES]
+  python benchmark.py [-h] [--device {CPU,GPU,NPU,AUTO,ALL}] [--batch-sizes BATCH_SIZES]
 
 
 This project required
