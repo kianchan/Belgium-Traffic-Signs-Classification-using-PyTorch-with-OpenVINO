@@ -5,14 +5,15 @@ Step to run
 1. Train PyTorch model
 python train.py
 
-
 2. Convert to OpenVINO FP16
 python convert.py
 
-
 3.Run inference
+
 python infer.py  [-h] [--device {CPU,GPU,NPU,AUTO,ALL}] [--batch-sizes BATCH_SIZES]
+
 python eval.py  [-h] [--device {CPU,GPU,NPU,AUTO,ALL}] [--batch-sizes BATCH_SIZES]
+
 python benchmark.py [-h] [--device {CPU,GPU,NPU,AUTO,ALL}] [--batch-sizes BATCH_SIZES]
 
 
