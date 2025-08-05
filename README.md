@@ -2,10 +2,10 @@
 
 Step to run
 
-1. Train PyTorch model
+1. Train PyTorch model    
 python train.py
 
-2. Convert to OpenVINO FP16
+2. Convert to OpenVINO FP16    
 python convert.py
 
 3. Run inference
