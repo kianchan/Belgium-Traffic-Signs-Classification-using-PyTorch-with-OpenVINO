@@ -76,7 +76,7 @@ def main():
             optimizer.zero_grad()
             if intel_xpu and use_amp:
                 # Intel GPU AMP: autocast only (GradScaler is not supported)
-                with torch.xpu.amp.autocast():
+                with torch.amp.autocast("xpu"):
                     outputs = model(images)
                     loss = criterion(outputs, labels)
                 loss.backward()
@@ -98,3 +98,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
